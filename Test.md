@@ -1,16 +1,16 @@
 
 **for** i = {l, ...,1} **do** <br>
-&nbsp;&nbsp;**foreach** $p$ such that $p \leq i$ and $w_{pi} \neq 0$ **do** <br>
+&nbsp;&nbsp;**foreach** $p$ such that $p \leq i$ and $H_{pi} \neq 0$ **do** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;**if** $p\ne i$ **then** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**foreach** $j \prec i$ **do** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**if** $j=p$ **then** <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$w_{pp}+=2\frac{\partial \phi_i}{\partial v_p}w_{pi}$ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$H_{pp}+=2\frac{\partial \phi_i}{\partial v_p}H_{pi}$ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**else** <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$w_{jp}+=2\frac{\partial \phi_i}{\partial v_j}w_{pi}$ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$H_{jp}+=2\frac{\partial \phi_i}{\partial v_j}H_{pi}$ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**end** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;**else** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**foreach** unordered pair ${j,k}$ such that $j,k \prec i$ **do** <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$w_{jk}+=\frac{\partial \phi_i}{\partial v_k}\frac{\partial \phi_i}{\partial v_j}w_{ii}$ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$H_{jk}+=\frac{\partial \phi_i}{\partial v_k}\frac{\partial \phi_i}{\partial v_j}H_{ii}$ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**end** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;**end** <br>
 &nbsp;&nbsp;**end** <br>

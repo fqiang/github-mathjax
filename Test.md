@@ -17,5 +17,5 @@
 &nbsp;&nbsp;**foreach** unordered pair ${j,k}$ such that $j,k \prec i$  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;$w_{jk} += \bar{v}_i \frac{\partial^2 \phi_i}{\partial v_k \partial v_j}$ <br>
 &nbsp;&nbsp;**end** <br>
-&nbsp;&nbsp;**foreach** $j \prec i$ **do** $\bar{v}_j+= \bar{v}_i  \frac{\partial \phi_i}{\partial v_j}$
+&nbsp;&nbsp;**foreach** $j \prec i$ **do** $\bar{v}_j+= \bar{v}_i  \frac{\partial \phi_i}{\partial v_j}$ <br>
 **end** <br>

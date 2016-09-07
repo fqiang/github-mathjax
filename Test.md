@@ -1,5 +1,5 @@
 
-**Input: elementary function lists $\phi_i i \in {1,\cdots,l}$ <br>
+**Input: elementary function lists $\phi_i, i \in {1,\cdots,l}$ <br>
 **for** i = {l, ...,1} **do**<br>
 &nbsp;&nbsp;*\#pushing* <br>
 &nbsp;&nbsp;**foreach** $p$ such that $p \leq i$ and $w_{pi} \neq 0$ **do** <br>

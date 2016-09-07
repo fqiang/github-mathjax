@@ -1,7 +1,8 @@
 
-**for** i = {l, ...,1} <br>
+**Input: elementary function lists $\phi_i i \in {1,\cdots,l}$
+**for** i = {l, ...,1} **do**<br>
 &nbsp;&nbsp;*\#pushing* <br>
-&nbsp;&nbsp;**foreach** $p$ such that $p \leq i$ and $w_{pi} \neq 0$ **d**o <br>
+&nbsp;&nbsp;**foreach** $p$ such that $p \leq i$ and $w_{pi} \neq 0$ **do** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;**if** $p\ne i$ **then** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**foreach** $j \prec i$ **do** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**if** $j=p$ **then** <br>
